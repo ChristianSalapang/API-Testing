@@ -37,5 +37,14 @@ public class ApiUnitTesting {
         then().
             statusCode(200);
     }
+	
+	@Test
+    public void testingget() {
+
+        when().
+                get ("https://reqres.in/api/users/2").
+        then().
+            statusCode(200).log().all();
+    }
 
 }
