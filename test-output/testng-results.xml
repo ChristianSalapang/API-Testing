@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-17T01:41:02 CST" name="Default suite" finished-at="2021-05-17T01:41:05 CST" duration-ms="2946">
+  <suite started-at="2021-05-17T01:51:04 CST" name="Default suite" finished-at="2021-05-17T01:51:10 CST" duration-ms="6548">
     <groups>
     </groups>
-    <test started-at="2021-05-17T01:41:02 CST" name="Default test" finished-at="2021-05-17T01:41:05 CST" duration-ms="2946">
+    <test started-at="2021-05-17T01:51:04 CST" name="Default test" finished-at="2021-05-17T01:51:10 CST" duration-ms="6548">
       <class name="ApiUnitTesting">
-        <test-method signature="testingpost()[pri:0, instance:ApiUnitTesting@20d28811]" started-at="2021-05-17T01:41:02 CST" name="testingpost" finished-at="2021-05-17T01:41:05 CST" duration-ms="2902" status="PASS">
+        <test-method signature="testing1post()[pri:0, instance:ApiUnitTesting@48aaecc3]" started-at="2021-05-17T01:51:04 CST" name="testing1post" finished-at="2021-05-17T01:51:07 CST" duration-ms="3216" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testingpost -->
+        </test-method> <!-- testing1post -->
+        <test-method signature="testing2patch()[pri:0, instance:ApiUnitTesting@48aaecc3]" started-at="2021-05-17T01:51:07 CST" name="testing2patch" finished-at="2021-05-17T01:51:08 CST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing2patch -->
+        <test-method signature="testing3get()[pri:0, instance:ApiUnitTesting@48aaecc3]" started-at="2021-05-17T01:51:08 CST" name="testing3get" finished-at="2021-05-17T01:51:09 CST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing3get -->
+        <test-method signature="testing4delete()[pri:0, instance:ApiUnitTesting@48aaecc3]" started-at="2021-05-17T01:51:09 CST" name="testing4delete" finished-at="2021-05-17T01:51:10 CST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing4delete -->
       </class> <!-- ApiUnitTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

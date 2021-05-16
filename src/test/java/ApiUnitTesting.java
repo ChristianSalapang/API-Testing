@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class ApiUnitTesting {
 
 	@Test
-    public void testingpost() {
+    public void testing1post() {
         JSONObject post = new JSONObject();
 
         post.put("name", "Kevin");
@@ -22,7 +22,7 @@ public class ApiUnitTesting {
     }
 	
 	@Test
-    public void testingpatch() {
+    public void testing2patch() {
         JSONObject post = new JSONObject();
 
         post.put("name", "Keeva");
@@ -39,7 +39,7 @@ public class ApiUnitTesting {
     }
 	
 	@Test
-    public void testingget() {
+    public void testing3get() {
 
         when().
                 get ("https://reqres.in/api/users/2").
@@ -48,7 +48,7 @@ public class ApiUnitTesting {
     }
 	
 	@Test
-    public void testingdelete() {
+    public void testing4delete() {
 
         when().
                 delete ("https://reqres.in/api/users/2").
