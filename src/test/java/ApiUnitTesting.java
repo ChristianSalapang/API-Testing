@@ -21,6 +21,21 @@ public class ApiUnitTesting {
             statusCode(201);
     }
 	
-	
+	@Test
+    public void testingpatch() {
+        JSONObject post = new JSONObject();
+
+        post.put("name", "Keeva");
+        post.put("job", "Barista");
+
+        System.out.println(post.toJSONString());
+
+        given().
+                body(post.toJSONString()).
+        when().
+                patch ("https://reqres.in/api/users/2").
+        then().
+            statusCode(200);
+    }
 
 }
